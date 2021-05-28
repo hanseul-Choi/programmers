@@ -6,12 +6,12 @@ rows x columns 크기인 행렬이 있습니다. 행렬에는 1부터 rows x col
 x1 행 y1 열부터 x2 행 y2 열까지의 영역에 해당하는 직사각형에서 테두리에 있는 숫자들을 한 칸씩 시계방향으로 회전합니다.<br>
 다음은 6 x 6 크기 행렬의 예시입니다.<br><br>
 
-![grid](/levels/행렬 테두리 회전하기/img/grid_example.PNG)
+![grid](programmers/levels/행렬 테두리 회전하기/img/grid_example.PNG)
 
 <br>
 이 행렬에 (2, 2, 5, 4) 회전을 적용하면, 아래 그림과 같이 2행 2열부터 5행 4열까지 영역의 테두리가 시계방향으로 회전합니다. 이때, 중앙의 15와 21이 있는 영역은 회전하지 않는 것을 주의하세요.<br><br>
 
-![rotate](/levels/행렬 테두리 회전하기/img/rotation_example.PNG)
+![rotate](programmers/levels/행렬 테두리 회전하기/img/rotation_example.PNG)
 
 <br>
 행렬의 세로 길이(행 개수) rows, 가로 길이(열 개수) columns, 그리고 회전들의 목록 queries가 주어질 때, 각 회전들을 배열에 적용한 뒤, 그 회전에 의해 위치가 바뀐 숫자들 중 가장 작은 숫자들을 순서대로 배열에 담아 return 하도록 solution 함수를 완성해주세요.
