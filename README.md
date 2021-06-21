@@ -8,7 +8,7 @@
 
  <br>
 
- ![l2_img]()
+ ![l2_img](https://github.com/hanseul-Choi/programmers/blob/main/l2.png?raw=true)
 
  <br>
  level2 문제 총 59문제 , 등수는 2946등인걸로 보아 열심히 하는 사람이 많아보인다.<br>
