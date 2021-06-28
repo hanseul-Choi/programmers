@@ -24,24 +24,24 @@ n은 1000 이하인 자연수입니다.
 list와 array를 만져볼 수 있는 문제였다.<br>
 array size 지정
 
-'''
+```
 var answer = LongArray(size)
-'''
+```
 
 <br>
 
 배열에 값 넣고 출력하기
 
-'''
+```
 answer.set(1, value) // 값 넣기
 answer.get(1) //값 출력
-'''
+```
 
 <br>
 
 list를 array로 변경이 가능
 
-'''
+```
 val answer = mutableListOf<Long>()
 answer.toLongArray() // LongArray로 변경
-'''
+```
